@@ -1,5 +1,5 @@
-package src.repository;
-import src.Note;
+package src.main.java.untitled.repository;
+import src.main.java.untitled.Note;
 import java.util.Set;
 public interface NoteRepository {
     Note save(Note note);

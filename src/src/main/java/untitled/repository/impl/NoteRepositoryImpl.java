@@ -1,7 +1,7 @@
-package src.repository.impl;
+package src.main.java.untitled.repository.impl;
 
-import src.Note;
-import src.repository.NoteRepository;
+import src.main.java.untitled.Note;
+import src.main.java.untitled.repository.NoteRepository;
 
 import java.util.HashSet;
 import java.util.Set;

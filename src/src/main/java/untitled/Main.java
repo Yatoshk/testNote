@@ -1,13 +1,7 @@
-package src;
+package src.main.java.untitled;
 
-import src.command.CommandReader;
-import src.command.CommandType;
-import src.repository.NoteRepository;
-import src.repository.impl.NoteRepositoryImpl;
+import src.main.java.untitled.command.CommandReader;
 
-import java.util.List;
-import java.util.LinkedList;
-import java.util.Scanner;
 public class Main {
     public static void main (String[] arg){
         /*int code = Authentication.authenticate();

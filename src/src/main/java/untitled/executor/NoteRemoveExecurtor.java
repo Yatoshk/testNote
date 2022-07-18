@@ -1,7 +1,4 @@
-package src.command.executor;
-
-import src.repository.NoteRepository;
-import src.repository.impl.NoteRepositoryImpl;
+package src.main.java.untitled.executor;
 
 public class NoteRemoveExecurtor extends AbstractExecutor{
     @Override

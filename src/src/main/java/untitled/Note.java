@@ -1,4 +1,4 @@
-package src;
+package src.main.java.untitled;
 
 import java.time.Instant;
 import java.util.Objects;

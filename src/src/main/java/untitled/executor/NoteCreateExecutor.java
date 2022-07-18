@@ -1,8 +1,6 @@
-package src.command.executor;
+package src.main.java.untitled.executor;
 
-import src.Note;
-import src.repository.NoteRepository;
-import src.repository.impl.NoteRepositoryImpl;
+import src.main.java.untitled.Note;
 
 public class NoteCreateExecutor implements Executor {
     @Override
@@ -21,7 +19,7 @@ public class NoteCreateExecutor implements Executor {
         String noteText = noteTextSb.toString();
 
         Note newNote = new Note(noteName, noteText);
-        NOTE_REPOSITORY.save(newNote);
+        //NOTE_REPOSITORY.save(newNote);
         System.out.println("Note created");
         return 1;
     }

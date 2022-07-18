@@ -1,4 +1,4 @@
-package src.command;
+package src.main.java.untitled.command;
 
 public enum CommandType {
     CREATE_NOTE,

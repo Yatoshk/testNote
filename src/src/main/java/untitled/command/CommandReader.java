@@ -1,8 +1,7 @@
-package src.command;
-import src.Note;
-import src.command.executor.NoteCreateExecutor;
-import src.repository.NoteRepository;
-import src.repository.impl.NoteRepositoryImpl;
+package src.main.java.untitled.command;
+import src.main.java.untitled.executor.NoteCreateExecutor;
+import src.main.java.untitled.repository.NoteRepository;
+import src.main.java.untitled.repository.impl.NoteRepositoryImpl;
 
 import java.util.Scanner;
 
